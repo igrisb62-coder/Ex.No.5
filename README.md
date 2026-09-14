@@ -1,53 +1,63 @@
+# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
+## Name: SUDHARSAN S 
 
-# EXP 5: Comparing Prompting Techniques Through Engineering Problem-Solving Scenarios
+## Reg No: 212224040335
 
-# Aim:To compare different prompting techniques and evaluate their effectiveness in solving real-world engineering problems by using a problem selected from a student's 3rd-year or final-year project work. 
+# Aim:
 
-### AI Tools Required: 
+To compare different prompting techniques and evaluate their effectiveness in solving a real-world engineering problem by analysing the quality, accuracy, completeness, clarity, and usefulness of AI-generated responses.
 
-# EXPERIMENT OVERVIEW
+## **AI Tool Used**
 
-In this experiment, each student/team selects a genuine problem from their ongoing or completed 3rd-year or final-year engineering project.
-The same engineering problem is given to an AI system using different prompting techniques. Students then compare the responses based on relevance, accuracy, completeness, clarity, feasibility and usefulness.
-The purpose is not simply to obtain an AI-generated answer. Students must analyse how changing the prompting technique changes the quality of the solution.
+* ChatGPT
 
-EXPERIMENT PROCEDURE
-Step 1 – Select the Engineering Problem
-Choose one genuine problem from the student's 3rd-year or final-year project.
-Step 2 – Write the Base Prompt
-Write a simple prompt describing the engineering problem without using advanced prompting techniques.
-Step 3 – Apply Different Prompting Techniques
-Rewrite the same problem using at least four different prompting techniques.
-For example:
-Technique 1 – Straightforward Prompt
-Suggest a method to detect crop diseases using computer vision.structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+---
 
-#**STUDENT SUBMISSION FORMAT**
-Each student/team should submit:
-Project title and problem statement
-Selected engineering scenario
-Base prompt
-Minimum four improved prompts using different techniques
-AI-generated outputs
-Comparison/evaluation table
-Analysis and observations
-Final selected prompting technique
-Refined/final prompt
-Engineering validation
+## **Engineering Problem**
 
-**Conclusion**
+**Project:** AI-Driven Behavioral Ransomware Detection and Prevention System
 
-# OUTPUT
+**Problem:** Detect ransomware by monitoring suspicious file and process behaviour and provide real-time alerts and preventive actions.
 
-# RESULT: The prompt for the above said problem executed successfully
+---
+
+## **Prompting Techniques**
+
+* **Naïve Prompt:** Suggest a method to detect and prevent ransomware using AI.
+* **Role-Based Prompt:** Act as a cybersecurity engineer and design an AI-based ransomware detection system.
+* **Structured Prompt:** Design the system covering data collection, feature extraction, ML model, detection, alert, and prevention.
+* **Constraint-Based Prompt:** Design a ransomware detection system considering real-time monitoring, low false positives, process isolation, and explainability.
+
+---
+
+## **Observations**
+
+| **Technique**    | **Prompt & Response**                                                                                                            | **Evaluation**                    |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Naïve            | “Suggest a method to detect ransomware using AI.” → General detection approach.                                                  | Basic quality and depth.          |
+| Role-Based       | “Act as a cybersecurity engineer and design an AI ransomware detection system.” → More technical response.                       | Improved relevance and clarity.   |
+| Structured       | “Design the system covering data, features, ML model, detection, alert and prevention.” → Detailed and organized response.       | High completeness and usefulness. |
+| Constraint-Based | “Design the system with real-time monitoring, low false positives and process isolation.” → Practical solution with constraints. | High feasibility and relevance.   |
+
+---
+
+## **Analysis**
+
+* Naïve prompts → produce general and less detailed solutions.
+* Role-based prompts → improve technical relevance.
+* Structured prompts → provide more complete and organized solutions.
+* Constraint-based prompts → produce practical solutions considering engineering requirements.
+* Structured and constraint-based prompting gave the best overall results.
+
+---
+
+## **Conclusion**
+
+This experiment shows that **prompt clarity, context, and constraints directly improve AI-generated engineering solutions**. Structured and constraint-based prompts produced more relevant, complete, clear, and practical responses than basic prompts.
+
+---
+
+## **Result**
+
+The different prompting techniques were successfully compared for the selected engineering problem, and the expected results were obtained.
